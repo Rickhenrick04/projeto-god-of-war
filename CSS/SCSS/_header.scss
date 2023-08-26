@@ -15,8 +15,21 @@ header {
             align-items: center;
             span {
                 font-weight: 600;
-                font-size: 14px;
-                line-height: 15px;
+                font-size: 0.875rem;
+                line-height: 0.9375rem;
+            }
+            ul {
+                display: flex;
+                gap: 0.5rem;
+                margin-left: 1.8rem;
+                li {
+                    border: 0.0938rem white solid;
+                    padding: 0.25rem 0.5rem;
+                    font-weight: 600;
+                    font-size: 0.875rem;
+                    line-height: 0.9375rem;
+                    
+                }
             }
         }
         
