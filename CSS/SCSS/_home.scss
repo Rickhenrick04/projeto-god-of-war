@@ -4,6 +4,12 @@
     background-image: url(/assets/bg-hero.jpg);
     background-position: center center;
     background-repeat: no-repeat;
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
     .left {
         width: 100%;
         max-width: 78.2rem;
@@ -39,4 +45,8 @@
 
         }
     }
+.right {
+    
+}
+
 }
