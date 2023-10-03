@@ -125,5 +125,51 @@
 .s-store {
     width: 100%;
     height: 56.1875rem;
-    
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    background-image: url('/assets/bg-story.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container{
+            display: flex;
+            align-items: center;
+             
+    }
+
+    .left {
+        width: 100%;
+        max-width: 39.3125rem;
+        margin-top: 3.8125rem;
+        h2 {
+            margin-top: 1.25rem;
+            margin-bottom: 1.5rem;
+            max-width: 31.375rem;
+        }
+            p {
+                margin-bottom: 3.5rem;
+                
+
+            }
+            .corp {
+                display: flex;
+                align-items: center;
+                margin-top: 3.5rem;
+                p {
+                    margin-bottom: 0rem;
+                    display: flex;
+                    font-size: 1rem;
+                    line-height: 160%;
+                    max-width: 20.25rem;
+                    margin-left: 2.875rem
+
+            }
+        }
+    }
+    .kratos-atreus {
+        position: relative;
+        left: 65.875rem;
+        top: 2.8125rem;
+    }
 }
